@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contenedor{
+  border-radius: 1px;
+  border: #000 solid;
+  width: 565px;
+  height: 570px;
+  margin-top: 100px;
+  margin-left: 650px;
+  background-color: #0A4D68;
+}
+.contenedor_hijo{
+  width: 530px;
+  height: 120px;
+  margin-left: 5px;
+  border-radius: 1px;
+  border: #000 solid;
+  margin-top: 25px;
+  margin-left: 15px;
+  background-color: #05BFDB;
+}
+.display{
+  margin-top: 12px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 1px;
+  border: #000 solid;
+  width: 495px;
+  height: 90px;
+  font-size: 40px;
+  text-align: right;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #D4FAFC;
+}
+.boton{
+  border-radius: 1px;
+  border: #000 solid;
+  width: 90px;
+  height: 70px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  display: inline-block;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #05BFDB;
+}
+.boton_igual
+{
+  border-radius: 1px;
+  border: #000 solid;
+  margin-left: 15px;
+  width: 200px;
+  height: 70px;
+  display: flex;
+  display: inline-block;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #05BFDB;
+}
+#boton1,#boton2,#boton3,#boton4,#boton5,#boton6,#boton7,#boton8,#boton9,
+#boton-,#botonx,#botonD,#botonS,#botonCor,#botonV,#boton0,#botonP,#botonC{
+  width: 70px;
+  height: 50px;
+  margin: 5px;
+  box-shadow:inset 1px 1px 5px #000;
+  font-size: 30px;
+  color:darkblue;
+  background-color: #6C9BCF;
+}
+#botonI{
+  width: 180px;
+  height: 50px;
+  margin: 5px;
+  box-shadow: inset 1px 1px 5px #000;
+  font-size: 30px;
+  color: darkblue;
+  background-color: #6C9BCF;
+}
+#boton1:active,#boton2:active,#boton3:active,#boton4:active,#boton5:active,#boton6:active,#boton7:active,
+#boton8:active,#boton9:active,#boton-:active,#botonx:active,#botonD:active,#botonS:active,#botonCor:active,
+#botonV:active,#boton0:active,#botonP:active,#botonC:active{
+  background-color: #053f82;
+}
+#botonI:active
+{
+  background-color: #053f82;
+}
